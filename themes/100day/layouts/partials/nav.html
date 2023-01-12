@@ -1,0 +1,16 @@
+<header>
+   <div class="logo">
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        </div>
+  
+  <nav>
+     <ul>
+      {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+      {{ end }}
+      <li>
+        <a href="{{ .Site.BaseURL }}/demo.html" target="_blank">BLOCK</a>
+    </li>
+     </ul>
+  </nav>
+  </header>

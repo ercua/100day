@@ -1,0 +1,135 @@
+@import "reset","fonts", "media", "syntax"
+
+html,body
+  height: 100%
+  
+  
+  
+body
+  width: 100%
+  color: #1e1e1e
+  background-color: #f5f5f5
+  font-family: 'Roboto', sans-serif
+  font-weight: 400
+
+
+
+  // HEADER
+
+.nav
+  ul
+    display: flex
+    li
+      padding-right: 5px
+
+
+a
+  text-decoration: none
+  color: #be616a
+
+header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  border: 1px solid #000
+  padding: 10px
+  background: #f6f6f6
+  margin-bottom: 20px
+
+.logo
+  font-size: 30px
+
+
+.wrapper
+  min-height: 100%
+  //min-height: 100%
+  display: flex
+  font-display: column
+  
+.content
+  flex: 1 1 auto
+
+// FOOTER  
+
+
+  
+  
+// ANIMATION
+
+#flicker
+  -webkit-animation: flicker 1.5s linear infinite
+  animation: flicker 1.5s linear infinite
+@keyframes flicker 
+  0% 
+      color: rgba(34, 34, 34, 1)
+  50% 
+      color: rgba(34, 34, 34, 0)
+  100% 
+      scolor: rgba(34, 34, 34, 1)
+
+.soc
+  padding-right: 5px
+
+
+
+
+#pagination
+  display: flex
+  justify-content: space-between
+  list-style-type: none
+
+
+
+h1 
+  font-size: 1.0em
+
+h2 
+  font-size: 2.00em
+
+h3 
+  font-size: 1.75em
+
+h4 
+  font-size: 1.5em
+
+h5 
+  font-size: 1.25em
+
+h6 
+  font-size: 1em
+
+
+  
+.list
+	display: grid
+	grid-template-columns: repeat(2, 1fr)
+	height: 100%
+	&-item
+		background-color: #fff
+		padding: 10px
+		margin: 10px
+		border-radius: 5px
+  
+  /* highlight */
+
+.highlight
+  position: relative
+  -webkit-overflow-scrolling: touch
+  pre, code
+    background-color: #ECEFF4 !important
+    color: #2E3440 !important
+    font-size: 15px
+    padding-left: 15px
+    font-family: Menlo, Monaco, "Courier New", monospace
+    white-space: pre-wrap
+    word-break: break-all
+
+code
+  background-color: #ECEFF4
+  color: #2E3440
+.btnTheme
+  background: none
+  cursor: pointer
+  border: none
+  img
+    vertical-align: middle

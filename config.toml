@@ -1,0 +1,101 @@
+baseURL = "/"
+languageCode = "ru-ru"
+# defaultContentLanguage = 'ru'
+title = "100Days"
+theme="100day"
+copyright = "© ProProfit"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+author = "ProCoder"
+
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "#"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/procode13"
+
+[[params.social]]
+name = "instagram"
+icon = "instagram"
+url = "https://www.instagram.com/pro_profit/"
+
+
+
+
+
+# Main menu Items
+
+[[menu.main]]
+name = "Главная"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Все статьи"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "О сайте"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Теги"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "Test"
+url ="/test"
+weight = 5
+
+
+# [languages]
+#  [languages.ua]
+#    title = 'мiй блок'
+#    weight = 1
+#  [languages.en]
+#    title = 'My blog'
+#    weight = 2
+#  [languages.ru]
+#    title = 'Мой блок'
+#    weight = 3
+ 
+paginate=1 # articles per page
+
+# markup
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 12
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+   style = "paraiso-dark"
+    tabWidth = 4
+  [markup.goldmark.parser.attribute]
+    title = true
+    block = true
+    safeMode = "unsafe"
+ 
+ 
+# Date Format
+# dateformat = "2006.01.02"
+dateformat = "02/01/2006"
+
+

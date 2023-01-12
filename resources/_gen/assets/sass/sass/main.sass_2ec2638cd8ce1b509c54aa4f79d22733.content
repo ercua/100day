@@ -1,0 +1,1 @@
+html{background:red}#flicker{-webkit-animation:flicker 1.5s linear infinite;animation:flicker 1.5s linear infinite}@keyframes flicker{0%{color:#222}50%{color:rgba(34,34,34,0)}100%{scolor:#222}}
